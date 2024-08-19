@@ -57,7 +57,7 @@ const REDRAW_OPTIONS_PROPERTIES = ['centerCross', 'fog', 'fogColor', 'debugSky']
  * @property {Boolean} [options.fixCenterOnResize=true]        - whether to fix map center when map is resized
  *
  * @property {Number}  [options.maxPitch=90]                    - max pitch
- * @property {Number}  [options.maxVisualPitch=70]              - the max pitch to be visual
+ * @property {Number}  [options.maxVisualPitch=90]              - the max pitch to be visual
  *
  * @property {Extent}  [options.viewHistory=true]               -  whether to record view history
  * @property {Extent}  [options.viewHistoryCount=10]            -  the count of view history record.
@@ -99,8 +99,8 @@ const REDRAW_OPTIONS_PROPERTIES = ['centerCross', 'fog', 'fogColor', 'debugSky']
  * @instance
  */
 const options: MapOptionsType = {
-    'maxVisualPitch': 70,
-    'maxPitch': 80,
+    'maxVisualPitch': 90,
+    'maxPitch': 90,
     'centerCross': false,
 
     'zoomInCenter': false,
