@@ -220,7 +220,7 @@ Map.include(/** @lends Map.prototype */{
         if (Browser.ie9) {
             throw new Error('map can\'t tilt in IE9.');
         }
-        const p = clamp(pitch, 0, this.options['maxPitch']) * RADIAN;
+        const p = clamp(pitch, -this.options['maxPitch'], this.options['maxPitch']) * RADIAN;
         if (this._pitch === p) return this;
         const from = this.getPitch();
         /*

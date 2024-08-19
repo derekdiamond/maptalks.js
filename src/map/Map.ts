@@ -56,7 +56,7 @@ const REDRAW_OPTIONS_PROPERTIES = ['centerCross', 'fog', 'fogColor', 'debugSky']
  * @property {Extent}  [options.maxExtent=null]         - when maxExtent is set, map will be restricted to the give max extent and bouncing back when user trying to pan ouside the extent.
  * @property {Boolean} [options.fixCenterOnResize=true]        - whether to fix map center when map is resized
  *
- * @property {Number}  [options.maxPitch=80]                    - max pitch
+ * @property {Number}  [options.maxPitch=90]                    - max pitch
  * @property {Number}  [options.maxVisualPitch=70]              - the max pitch to be visual
  *
  * @property {Extent}  [options.viewHistory=true]               -  whether to record view history
